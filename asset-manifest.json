@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RitaOak/ritaoak.github.io.git/static/css/main.abf2facc.chunk.css",
-    "main.js": "/RitaOak/ritaoak.github.io.git/static/js/main.84a8a275.chunk.js",
-    "main.js.map": "/RitaOak/ritaoak.github.io.git/static/js/main.84a8a275.chunk.js.map",
-    "runtime-main.js": "/RitaOak/ritaoak.github.io.git/static/js/runtime-main.e554a3d5.js",
-    "runtime-main.js.map": "/RitaOak/ritaoak.github.io.git/static/js/runtime-main.e554a3d5.js.map",
-    "static/js/2.60b47566.chunk.js": "/RitaOak/ritaoak.github.io.git/static/js/2.60b47566.chunk.js",
-    "static/js/2.60b47566.chunk.js.map": "/RitaOak/ritaoak.github.io.git/static/js/2.60b47566.chunk.js.map",
-    "static/js/3.d1a3ccd6.chunk.js": "/RitaOak/ritaoak.github.io.git/static/js/3.d1a3ccd6.chunk.js",
-    "static/js/3.d1a3ccd6.chunk.js.map": "/RitaOak/ritaoak.github.io.git/static/js/3.d1a3ccd6.chunk.js.map",
-    "index.html": "/RitaOak/ritaoak.github.io.git/index.html",
-    "static/css/main.abf2facc.chunk.css.map": "/RitaOak/ritaoak.github.io.git/static/css/main.abf2facc.chunk.css.map",
-    "static/js/2.60b47566.chunk.js.LICENSE.txt": "/RitaOak/ritaoak.github.io.git/static/js/2.60b47566.chunk.js.LICENSE.txt"
+    "main.css": "/ritaoak.github.io/static/css/main.abf2facc.chunk.css",
+    "main.js": "/ritaoak.github.io/static/js/main.84a8a275.chunk.js",
+    "main.js.map": "/ritaoak.github.io/static/js/main.84a8a275.chunk.js.map",
+    "runtime-main.js": "/ritaoak.github.io/static/js/runtime-main.1104dad6.js",
+    "runtime-main.js.map": "/ritaoak.github.io/static/js/runtime-main.1104dad6.js.map",
+    "static/js/2.60b47566.chunk.js": "/ritaoak.github.io/static/js/2.60b47566.chunk.js",
+    "static/js/2.60b47566.chunk.js.map": "/ritaoak.github.io/static/js/2.60b47566.chunk.js.map",
+    "static/js/3.d1a3ccd6.chunk.js": "/ritaoak.github.io/static/js/3.d1a3ccd6.chunk.js",
+    "static/js/3.d1a3ccd6.chunk.js.map": "/ritaoak.github.io/static/js/3.d1a3ccd6.chunk.js.map",
+    "index.html": "/ritaoak.github.io/index.html",
+    "static/css/main.abf2facc.chunk.css.map": "/ritaoak.github.io/static/css/main.abf2facc.chunk.css.map",
+    "static/js/2.60b47566.chunk.js.LICENSE.txt": "/ritaoak.github.io/static/js/2.60b47566.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e554a3d5.js",
+    "static/js/runtime-main.1104dad6.js",
     "static/js/2.60b47566.chunk.js",
     "static/css/main.abf2facc.chunk.css",
     "static/js/main.84a8a275.chunk.js"
