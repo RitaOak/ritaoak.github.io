@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 const navbar = () => {
   return (
@@ -24,7 +25,7 @@ const navbar = () => {
             <span class="navbar-item">
               <a class="button is-primary is-inverted">
                 <span class="icon">
-                  <i class="fab fa-github"></i>
+                  <FaGithub />
                 </span>
                 <span>let's talk</span>
               </a>

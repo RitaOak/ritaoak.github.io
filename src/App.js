@@ -2,22 +2,25 @@
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import { Hero } from "react-bulma-components";
+import { Container } from "react-bulma-components";
 
 function App() {
   return (
-    <section class="hero is-medium background">
-      <div class="hero-head">
+    <Hero className="hero is-medium background">
+      <Hero.Header>
+        {/* Navbar */}
         <Navbar />
-      </div>
-
-      <div class="hero-body">
-        <div class="container">
+      </Hero.Header>
+      <Hero.Body>
+        <Container>
+          {/* Main Section header */}
           <Header />
-        </div>
-      </div>
-
+        </Container>
+      </Hero.Body>
+      {/* Footer */}
       <Footer />
-    </section>
+    </Hero>
   );
 }
 
