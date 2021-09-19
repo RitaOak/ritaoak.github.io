@@ -7,7 +7,7 @@ import { Container } from "react-bulma-components";
 
 function App() {
   return (
-    <Hero className="hero is-medium background">
+    <Hero className="hero is-fullheight background">
       <Hero.Header>
         {/* Navbar */}
         <Navbar />
