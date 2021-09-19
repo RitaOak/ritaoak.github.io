@@ -55,19 +55,20 @@ const mainContent = () => {
         </span>
       </a>{" "}
       .
-      <br />
-      <DownloadCV /> and{" "}
-      <span class="title-email-styles-underlined">email me</span>, or go to my{" "}
-      <a
-        href="https://www.linkedin.com/in/rita-oak/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <span>
-          <FaLinkedin size={50} style={{ paddingTop: 5, color: "#E496FF" }} />
-        </span>
-      </a>{" "}
-      if you'd like to reach out.{" "}
+      <p className="download-section">
+        <DownloadCV /> and{" "}
+        <span class="title-email-styles-underlined">email me</span>, or go to my{" "}
+        <a
+          href="https://www.linkedin.com/in/rita-oak/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            <FaLinkedin size={50} style={{ paddingTop: 5, color: "#E496FF" }} />
+          </span>
+        </a>{" "}
+        if you'd like to reach out.{" "}
+      </p>
     </p>
   );
 };

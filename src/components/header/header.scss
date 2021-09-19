@@ -21,7 +21,7 @@
 
 .title-styles {
   color: #ececec;
-  font-size: 36px;
+  font-size: 2.4em;
   line-height: 1.5em;
   font-weight: 400;
 }
@@ -42,6 +42,11 @@
 .title-email-styles-underlined {
   color: #ffc97c !important;
   text-decoration: underline;
+}
+
+.download-section {
+  margin: 1em 0 0.3em 0;
+  font-size: 0.8em;
 }
 
 .subtitle {
