@@ -13,9 +13,12 @@ const header = () => {
   return (
     <div>
       <p class="title title-styles">
-        Hello there! I'm <span class="title-name-styles-underlined">Rita</span>{" "}
-        -- a product designer and junior frontend developer living in Portugal.
-        You can find my projects on{" "}
+        Hello there!
+        <br />
+        <br />
+        I'm <span class="title-name-styles-underlined">Rita</span> -- a product
+        designer and junior frontend developer living in Portugal. You can find
+        my projects on{" "}
         <a
           href="https://dribbble.com/OakRita"
           rel="noopener noreferrer"
@@ -28,18 +31,24 @@ const header = () => {
             />
           </span>
         </a>{" "}
-        or{" "}
+        +{" "}
         <a
           href="https://www.behance.net/ritaoak"
           rel="noopener noreferrer"
           target="_blank"
         >
           <span>
-            <FaBehance
-              size={50}
-              size={50}
-              style={{ paddingTop: 5, color: "#50E179" }}
-            />
+            <FaBehance size={50} style={{ paddingTop: 5, color: "#50E179" }} />
+          </span>
+        </a>{" "}
+        or check some code experiments at{" "}
+        <a
+          href="https://github.com/RitaOak"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span>
+            <FaGithub size={50} style={{ paddingTop: 5, color: "#72C6EF" }} />
           </span>
         </a>
         .
@@ -48,7 +57,8 @@ const header = () => {
         <span>
           <BsArrowReturnRight />{" "}
         </span>
-        I'm currently working as a contractor to redesign and implement the{" "}
+        Currently working full-time as a contractor to redesign and implement
+        the{" "}
         <a
           href="https://www.apereo.org/projects/apereo-oae"
           rel="noopener noreferrer"
