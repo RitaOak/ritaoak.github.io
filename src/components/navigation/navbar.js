@@ -1,17 +1,11 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { RiMessage2Line } from "react-icons/ri";
 
 const navbar = () => {
   return (
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img
-              src="https://bulma.io/images/bulma-type-white.png"
-              alt="Logo"
-            ></img>
-          </a>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
@@ -20,12 +14,12 @@ const navbar = () => {
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item is-active">case studies</a>
-            <a class="navbar-item">about me</a>
+            <a class="navbar-item nav-cel">case studies</a>
+            <a class="navbar-item nav-cel">about me</a>
             <span class="navbar-item">
-              <a class="button is-primary is-inverted">
+              <a class="button is-primary is-inverted contact-button">
                 <span class="icon">
-                  <FaGithub />
+                  <RiMessage2Line />
                 </span>
                 <span>let's talk</span>
               </a>

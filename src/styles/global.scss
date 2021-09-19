@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
 
 * {
   font-family: "Work Sans", sans-serif;
@@ -8,15 +8,13 @@
   background-color: #141414;
 }
 
-.title-styles {
-  color: white;
+::-moz-selection {
+  /* Code for Firefox */
+  color: #122361;
+  background: rgb(255, 255, 220);
 }
 
-.title-name-styles {
-  color: #ffc97c;
-}
-
-.title-name-styles-underlined {
-  color: #ffc97c;
-  text-decoration: underline;
+::selection {
+  color: #122361;
+  background: rgb(255, 255, 220);
 }

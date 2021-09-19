@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Header from "./components/header";
+import Navbar from "./components/navigation/navbar";
+//import SocialMedia from "./components/header/socialMedia";
+import Header from "./components/header/header";
 import { Hero } from "react-bulma-components";
 import { Container } from "react-bulma-components";
 
 function App() {
   return (
-    <Hero className="hero is-medium background">
+    <Hero className="hero is-fullheight background">
       <Hero.Header>
         {/* Navbar */}
         <Navbar />
@@ -18,8 +18,6 @@ function App() {
           <Header />
         </Container>
       </Hero.Body>
-      {/* Footer */}
-      <Footer />
     </Hero>
   );
 }
