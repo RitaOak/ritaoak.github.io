@@ -23,7 +23,7 @@ const header = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span class="text-background" style={{ fontWeight: "600" }}>
+          <span class="text-background">
             Open Academic Environment
             <span>
               <MdOpenInNew
@@ -41,7 +41,7 @@ const header = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span class="text-background" style={{ fontWeight: "bold" }}>
+            <span class="text-background">
               UESP
               <span>
                 <MdOpenInNew
