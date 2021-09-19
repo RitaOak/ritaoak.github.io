@@ -27,7 +27,7 @@
   border-radius: 4px;
   &:hover {
     background-color: #373737;
-    color: #d9d9d9;
+    color: #ffd18f;
   }
 }
 
@@ -54,8 +54,32 @@
   }
 }
 
-// Responsive Queries
+// Social Media
+.social-media-tabs {
+  margin: -5rem 0 3rem 0;
+  font-size: 0.3em;
+}
 
+.tabs a {
+  color: #d9d9d9;
+  border: none;
+  &:hover {
+    color: #ffc97c;
+  }
+}
+
+li.tabs-first {
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  color: #ffc97c;
+  font-size: 4em;
+  font-weight: 500;
+}
+
+.tabs-format {
+  padding: 0.5rem;
+}
+
+// Responsive Queries
 @media screen and (min-width: 1201px) {
   .header-break::before {
     content: "\a";

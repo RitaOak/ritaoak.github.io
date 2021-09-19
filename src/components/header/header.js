@@ -3,6 +3,7 @@ import "../header/header.scss";
 import { BsArrowReturnRight } from "react-icons/bs";
 import { MdOpenInNew } from "react-icons/md";
 import DownloadCV from "./downloadCV.js";
+import SocialMedia from "./socialMedia.js";
 
 const header = () => {
   return (

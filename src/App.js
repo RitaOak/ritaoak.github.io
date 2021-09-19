@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Navbar from "./components/navigation/navbar";
-import Footer from "./components/footer/footer";
+import SocialMedia from "./components/header/socialMedia";
 import Header from "./components/header/header";
 import { Hero } from "react-bulma-components";
 import { Container } from "react-bulma-components";
@@ -19,7 +19,7 @@ function App() {
         </Container>
       </Hero.Body>
       {/* Footer */}
-      <Footer />
+      <SocialMedia />
     </Hero>
   );
 }
