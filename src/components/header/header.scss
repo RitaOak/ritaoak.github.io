@@ -14,6 +14,15 @@
   font-weight: bold !important;
 }
 
+.title-jobs-styles-underlined {
+  color: #ffc97c !important;
+}
+
+.title-email-styles-underlined {
+  color: #f29479 !important;
+  text-decoration: underline;
+}
+
 .subtitle {
   color: #d9d9d9;
   font-size: 24px;
@@ -26,22 +35,24 @@
 .text-background-oae,
 .text-background-uesp {
   border-radius: 4px;
+  padding: 0.2em;
 }
 
 .text-background-oae {
-  background-color: #dce4ff;
-  color: #122361;
+  background-color: #ced9ff;
+  color: #001233;
   &:hover {
-    background-color: #ced9ff;
-    color: #122361;
+    background-color: #84cae7;
+    color: #001233;
   }
 }
 
 .text-background-uesp {
-  background-color: #ffddcd;
+  background-color: #f7b267;
   color: #312621;
+  font-weight: 600;
   &:hover {
-    background-color: #fbd1be;
+    background-color: #f9dcc4;
     color: #312621;
   }
 }

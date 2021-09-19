@@ -11,9 +11,13 @@ const mainContent = () => {
       Hello there!
       <br />
       <br />
-      I'm <span class="title-name-styles-underlined">Rita</span> -- a product
-      designer and junior frontend developer living in Portugal. You can find my
-      projects on{" "}
+      I'm <span class="title-name-styles-underlined">Rita</span> -- a{" "}
+      <span class="title-jobs-styles-underlined">product designer </span>
+      and{" "}
+      <span class="title-jobs-styles-underlined">
+        junior frontend developer
+      </span>{" "}
+      working remotely from Portugal. You can check out my UI/UX projects on{" "}
       <a
         href="https://dribbble.com/OakRita"
         rel="noopener noreferrer"
@@ -36,7 +40,7 @@ const mainContent = () => {
           <FaBehance size={50} style={{ paddingTop: 5, color: "#50E179" }} />
         </span>
       </a>{" "}
-      or check some code experiments at{" "}
+      and{" "}
       <a
         href="https://github.com/RitaOak"
         rel="noopener noreferrer"
@@ -45,8 +49,9 @@ const mainContent = () => {
         <span>
           <FaGithub size={50} style={{ paddingTop: 5, color: "#72C6EF" }} />
         </span>
-      </a>
-      . <DownloadCV /> or check my{" "}
+      </a>{" "}
+      for code. <DownloadCV /> and{" "}
+      <span class="title-email-styles-underlined">email me</span>, or go to my{" "}
       <a
         href="https://www.linkedin.com/in/rita-oak/"
         rel="noopener noreferrer"
@@ -55,8 +60,8 @@ const mainContent = () => {
         <span>
           <FaLinkedin size={50} style={{ paddingTop: 5, color: "#E496FF" }} />
         </span>
-      </a>
-      .
+      </a>{" "}
+      if you'd like to reach out!{" "}
     </p>
   );
 };

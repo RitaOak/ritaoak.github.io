@@ -17,12 +17,12 @@ const secondaryContent = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span class="text-background-oae">
+          <span class="text-background-oae" style={{ fontWeight: "bold" }}>
             Open Academic Environment
             <span>
               <MdOpenInNew
                 size={30}
-                style={{ paddingTop: 10, color: "#122361" }}
+                style={{ paddingTop: 10, color: "#001233" }}
               />
             </span>
           </span>
@@ -35,7 +35,7 @@ const secondaryContent = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span class="text-background-uesp">
+            <span class="text-background-uesp" style={{ fontWeight: "bold" }}>
               UESP
               <span>
                 <MdOpenInNew
