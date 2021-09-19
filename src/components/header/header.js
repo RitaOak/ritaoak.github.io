@@ -1,6 +1,8 @@
 import React from "react";
 import "../header/header.scss";
 import { BsArrowReturnRight } from "react-icons/bs";
+import { MdFileDownload } from "react-icons/md";
+import { Button } from "react-bulma-components";
 
 const header = () => {
   return (
@@ -29,6 +31,12 @@ const header = () => {
           .
         </span>
       </p>
+      <Button className="download-cv" size="medium" renderAs="span">
+        Download CV{" "}
+        <span>
+          <MdFileDownload />
+        </span>
+      </Button>
     </div>
   );
 };
