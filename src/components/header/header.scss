@@ -14,7 +14,7 @@
 
 .subtitle {
   color: #d9d9d9;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .subtitle-format {
@@ -33,7 +33,20 @@
 }
 
 .download-cv {
+  margin-top: 1em;
   background-color: #313131;
   color: #d9d9d9;
   border: none;
+  &:hover {
+    color: white;
+    background-color: #373737;
+  }
+  &:active {
+    color: white;
+    background-color: #373737;
+  }
+  &:focus {
+    color: white;
+    background-color: #373737;
+  }
 }

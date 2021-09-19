@@ -34,7 +34,10 @@ const header = () => {
       <Button className="download-cv" size="medium" renderAs="span">
         Download CV{" "}
         <span>
-          <MdFileDownload />
+          <MdFileDownload
+            size={33}
+            style={{ paddingTop: 10, color: "#ffc97c" }}
+          />
         </span>
       </Button>
     </div>
