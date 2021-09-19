@@ -7,6 +7,9 @@ const navbar = () => {
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src={logo} alt="Logo"></img>
+          </a>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
