@@ -16,7 +16,7 @@ const header = () => {
         <span>
           <BsArrowReturnRight />{" "}
         </span>
-        Currently working with Apereo Foundation to redesign and implement the{" "}
+        Currently working as a contractor to redesign and implement the{" "}
         <a
           href="https://www.apereo.org/projects/apereo-oae"
           rel="noopener noreferrer"

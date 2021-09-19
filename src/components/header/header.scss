@@ -27,6 +27,7 @@
   border-radius: 2px;
   height: 50px;
   width: 100px;
+
   &:hover {
     text-decoration: underline;
   }
@@ -48,5 +49,14 @@
   &:focus {
     color: white;
     background-color: #373737;
+  }
+}
+
+// Responsive Queries
+
+@media screen and (min-width: 1201px) {
+  .header-break::before {
+    content: "\a";
+    white-space: pre;
   }
 }
