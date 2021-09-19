@@ -1,6 +1,7 @@
 import React from "react";
 import "../header/header.scss";
 import { BsArrowReturnRight } from "react-icons/bs";
+import { MdOpenInNew } from "react-icons/md";
 import DownloadCV from "./downloadCV.js";
 
 const header = () => {
@@ -24,14 +25,32 @@ const header = () => {
         >
           <span class="text-background" style={{ fontWeight: "600" }}>
             Open Academic Environment
+            <span>
+              <MdOpenInNew
+                size={30}
+                style={{ paddingTop: 10, color: "#ffc97c" }}
+              />
+            </span>
           </span>
         </a>
         .{" "}
         <span class="header-break">
           Freelancing for{" "}
-          <span class="text-background" style={{ fontWeight: "bold" }}>
-            UESP
-          </span>
+          <a
+            href="https://en.uesp.net/wiki/Main_Page"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span class="text-background" style={{ fontWeight: "bold" }}>
+              UESP
+              <span>
+                <MdOpenInNew
+                  size={30}
+                  style={{ paddingTop: 10, color: "#ffc97c" }}
+                />
+              </span>
+            </span>
+          </a>
           .
         </span>
       </p>
