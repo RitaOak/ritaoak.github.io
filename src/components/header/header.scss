@@ -1,0 +1,33 @@
+.title-styles {
+  color: #d9d9d9;
+  font-size: 36px;
+}
+
+.title-name-styles {
+  color: #ffc97c !important;
+}
+
+.title-name-styles-underlined {
+  color: #ffc97c !important;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: #d9d9d9;
+  font-size: 26px;
+}
+
+.subtitle-format {
+  padding-top: 10px;
+}
+
+.text-background {
+  background-color: #313131;
+  color: #ffc97c;
+  border-radius: 2px;
+  height: 50px;
+  width: 100px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
