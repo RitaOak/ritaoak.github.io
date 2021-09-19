@@ -40,7 +40,7 @@ const secondaryContent = () => {
               <span>
                 <MdOpenInNew
                   size={30}
-                  style={{ paddingTop: 10, color: "#312621" }}
+                  style={{ paddingTop: 10, color: "#291309" }}
                 />
               </span>
             </span>

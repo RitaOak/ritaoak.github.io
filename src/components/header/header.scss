@@ -1,7 +1,28 @@
+// Navbar
+.contact-button {
+  font-size: 1.1em;
+  background-color: #141414 !important;
+  color: #ffc97c !important;
+  border-radius: 50px;
+  border: 1px solid #f7b267 !important;
+  &:hover {
+    background-color: #313131 !important;
+  }
+}
+
+.nav-cel {
+  color: #d9d9d9;
+  font-size: 1.1em;
+  &:hover {
+    color: #d9d9d9 !important;
+    background-color: #313131 !important;
+  }
+}
+
 .title-styles {
   color: #ececec;
-  font-size: 40px;
-  line-height: 1.4em;
+  font-size: 36px;
+  line-height: 1.5em;
   font-weight: 400;
 }
 
@@ -19,13 +40,14 @@
 }
 
 .title-email-styles-underlined {
-  color: #f29479 !important;
+  color: #ffc97c !important;
   text-decoration: underline;
 }
 
 .subtitle {
   color: #d9d9d9;
   font-size: 24px;
+  line-height: 1.5em;
 }
 
 .subtitle-format {
@@ -49,7 +71,7 @@
 
 .text-background-uesp {
   background-color: #f7b267;
-  color: #312621;
+  color: #291309;
   font-weight: 600;
   &:hover {
     background-color: #f9dcc4;

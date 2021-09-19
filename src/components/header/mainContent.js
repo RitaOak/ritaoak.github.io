@@ -17,11 +17,13 @@ const mainContent = () => {
       <span class="title-jobs-styles-underlined">
         junior frontend developer
       </span>{" "}
-      working remotely from Portugal. You can check out my UI/UX projects on{" "}
+      working remotely from Portugal. You can check out some of my most
+      challenging projects on{" "}
       <a
         href="https://dribbble.com/OakRita"
         rel="noopener noreferrer"
         target="_blank"
+        alt="Dribbble"
       >
         <span>
           <FaDribbbleSquare
@@ -35,22 +37,26 @@ const mainContent = () => {
         href="https://www.behance.net/ritaoak"
         rel="noopener noreferrer"
         target="_blank"
+        alt="Behance"
       >
         <span>
           <FaBehance size={50} style={{ paddingTop: 5, color: "#50E179" }} />
         </span>
       </a>{" "}
-      and{" "}
+      +{" "}
       <a
         href="https://github.com/RitaOak"
         rel="noopener noreferrer"
         target="_blank"
+        alt="Github"
       >
         <span>
           <FaGithub size={50} style={{ paddingTop: 5, color: "#72C6EF" }} />
         </span>
       </a>{" "}
-      for code. <DownloadCV /> and{" "}
+      .
+      <br />
+      <DownloadCV /> and{" "}
       <span class="title-email-styles-underlined">email me</span>, or go to my{" "}
       <a
         href="https://www.linkedin.com/in/rita-oak/"
@@ -61,7 +67,7 @@ const mainContent = () => {
           <FaLinkedin size={50} style={{ paddingTop: 5, color: "#E496FF" }} />
         </span>
       </a>{" "}
-      if you'd like to reach out!{" "}
+      if you'd like to reach out.{" "}
     </p>
   );
 };
