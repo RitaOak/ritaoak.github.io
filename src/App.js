@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import Navbar from "./components/navigation/navbar";
 //import SocialMedia from "./components/header/socialMedia";
 import Header from "./components/header/header";
