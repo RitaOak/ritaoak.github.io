@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.background {
+  background-color: #141414;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #122361;
+  background: rgb(255, 255, 220);
+}
+
+::selection {
+  color: #122361;
+  background: rgb(255, 255, 220);
+}
