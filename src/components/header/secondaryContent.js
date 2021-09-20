@@ -6,7 +6,7 @@ const secondaryContent = () => {
   return (
     <div>
       <hr />
-      <p class="subtitle subtitle-format">
+      <p className="subtitle subtitle-format">
         <span>
           <BsArrowReturnRight />{" "}
         </span>
@@ -17,7 +17,7 @@ const secondaryContent = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span class="text-background-oae" style={{ fontWeight: "bold" }}>
+          <span className="text-background-oae" style={{ fontWeight: "bold" }}>
             Open Academic Environment
             <span>
               <MdOpenInNew
@@ -35,7 +35,10 @@ const secondaryContent = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span class="text-background-uesp" style={{ fontWeight: "bold" }}>
+            <span
+              className="text-background-uesp"
+              style={{ fontWeight: "bold" }}
+            >
               UESP
               <span>
                 <MdOpenInNew

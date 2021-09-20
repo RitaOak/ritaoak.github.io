@@ -7,9 +7,9 @@ import { FaLinkedin } from "react-icons/fa";
 const socialMedia = () => {
   return (
     <div>
-      <div class="hero-foot social-media-hero">
-        <nav class="tabs social-media-tabs">
-          <div class="container">
+      <div className="hero-foot social-media-hero">
+        <nav className="tabs social-media-tabs">
+          <div className="container">
             <ul>
               <li className="tabs-first">
                 <span>Talk to me over social media</span>

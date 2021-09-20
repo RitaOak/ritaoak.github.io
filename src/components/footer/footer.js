@@ -3,11 +3,11 @@ import React from "react";
 const footer = () => {
   return (
     <div>
-      <div class="hero-foot">
-        <nav class="tabs">
-          <div class="container">
+      <div className="hero-foot">
+        <nav className="tabs">
+          <div className="container">
             <ul>
-              <li class="is-active">
+              <li className="is-active">
                 <a>Overview</a>
               </li>
               <li>

@@ -7,14 +7,14 @@ import DownloadCV from "./downloadCV.js";
 
 const mainContent = () => {
   return (
-    <p class="title title-styles">
+    <div className="title title-styles">
       Hello there!
       <br />
       <br />
-      I'm <span class="title-name-styles-underlined">Rita</span> -- a{" "}
-      <span class="title-jobs-styles-underlined">product designer </span>
+      I'm <span className="title-name-styles-underlined">Rita</span> -- a{" "}
+      <span className="title-jobs-styles-underlined">product designer </span>
       and{" "}
-      <span class="title-jobs-styles-underlined">
+      <span className="title-jobs-styles-underlined">
         junior frontend developer
       </span>{" "}
       working remotely from Portugal. You can check out some of my most
@@ -57,7 +57,8 @@ const mainContent = () => {
       .
       <p className="download-section">
         <DownloadCV /> and{" "}
-        <span class="title-email-styles-underlined">email me</span>, or go to my{" "}
+        <span className="title-email-styles-underlined">email me</span>, or go
+        to my{" "}
         <a
           href="https://www.linkedin.com/in/rita-oak/"
           rel="noopener noreferrer"
@@ -69,7 +70,7 @@ const mainContent = () => {
         </a>{" "}
         if you'd like to reach out.{" "}
       </p>
-    </p>
+    </div>
   );
 };
 
