@@ -3,6 +3,7 @@ import { FaBehance } from "react-icons/fa";
 import { FaDribbbleSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { RiGhostSmileLine } from "react-icons/ri";
 
 const socialMedia = () => {
   return (
