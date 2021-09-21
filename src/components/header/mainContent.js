@@ -28,7 +28,7 @@ const mainContent = () => {
         <span>
           <FaDribbbleSquare
             size={50}
-            style={{ paddingTop: 5, color: "#F8FFAE" }}
+            style={{ color: "#F8FFAE", verticalAlign: "middle" }}
           />
         </span>
       </a>{" "}
@@ -40,7 +40,10 @@ const mainContent = () => {
         alt="Behance"
       >
         <span>
-          <FaBehance size={50} style={{ paddingTop: 5, color: "#50E179" }} />
+          <FaBehance
+            size={50}
+            style={{ verticalAlign: "middle", color: "#50E179" }}
+          />
         </span>
       </a>{" "}
       +{" "}
@@ -51,7 +54,10 @@ const mainContent = () => {
         alt="Github"
       >
         <span>
-          <FaGithub size={50} style={{ paddingTop: 5, color: "#72C6EF" }} />
+          <FaGithub
+            size={50}
+            style={{ verticalAlign: "middle", color: "#72C6EF" }}
+          />
         </span>
       </a>{" "}
       .
@@ -65,7 +71,10 @@ const mainContent = () => {
           target="_blank"
         >
           <span>
-            <FaLinkedin size={50} style={{ paddingTop: 5, color: "#E496FF" }} />
+            <FaLinkedin
+              size={50}
+              style={{ verticalAlign: "middle", color: "#E496FF" }}
+            />
           </span>
         </a>{" "}
         if you'd like to reach out.{" "}
