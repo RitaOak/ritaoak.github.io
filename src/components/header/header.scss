@@ -21,7 +21,7 @@
 .title-styles {
   color: #ececec;
   font-size: 2.4em;
-  line-height: 1.5em;
+  line-height: 1.4em;
   font-weight: 400;
 }
 
@@ -64,32 +64,15 @@
   padding: 0.2em;
 }
 
-.text-background-oae {
-  background-color: #ced9ff;
-  color: #001233;
-  &:hover {
-    background-color: #84cae7;
-    color: #001233;
-  }
-}
-
-.text-background-uesp {
-  background-color: #f7b267;
-  color: #291309;
-  font-weight: 600;
-  &:hover {
-    background-color: #f9dcc4;
-    color: #312621;
-  }
-}
-
 .text-background-oae::before,
 .text-background-uesp::before {
   content: "\00a0 ";
 }
 
-.download-cv {
-  margin-top: 0.5em;
+.download-cv,
+.text-background-oae,
+.text-background-uesp {
+  vertical-align: middle;
   background-color: #313131;
   color: #d9d9d9;
   border: none;

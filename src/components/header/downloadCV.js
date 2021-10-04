@@ -2,13 +2,12 @@ import React from "react";
 import { MdFileDownload } from "react-icons/md";
 import { Button } from "react-bulma-components";
 
+const CV =
+  "https://drive.google.com/file/d/1PeiIBG8Y74dPU-0xTZ_KE4J79nd4u2xC/view?usp=sharing";
+
 const downloadCV = () => {
   return (
-    <a
-      href="https://stackoverflow.com/questions/30202755/react-router-open-link-in-new-tab"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
+    <a href={CV} rel="noopener noreferrer" target="_blank">
       <Button className="download-cv" size="medium" renderAs="button">
         Download my CV{" "}
         <span>

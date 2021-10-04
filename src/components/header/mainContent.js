@@ -62,9 +62,7 @@ const mainContent = () => {
       </a>{" "}
       .
       <p className="download-section">
-        <DownloadCV /> and{" "}
-        <span className="title-email-styles-underlined">email me</span>, or go
-        to my{" "}
+        <DownloadCV /> or go to my{" "}
         <a
           href="https://www.linkedin.com/in/rita-oak/"
           rel="noopener noreferrer"
